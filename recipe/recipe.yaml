@@ -48,7 +48,7 @@ tests:
 
 about:
   summary: A modern, type-safe Python library for converting HTML to Markdown with comprehensive tag support and customizable options
-  homepage: https://github.com/JohannesKaufmann/html-to-markdown
+  homepage: https://github.com/Goldziher/html-to-markdown
   license: MIT
   license_file: LICENSE
 

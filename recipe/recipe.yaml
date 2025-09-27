@@ -15,7 +15,7 @@ source:
   sha256: f730872b62b7552b7f86d26f0e8a28f24934b0a47fd8cc8ed428b3d3027dfbf8
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   python:
@@ -48,7 +48,7 @@ tests:
 
 about:
   summary: A modern, type-safe Python library for converting HTML to Markdown with comprehensive tag support and customizable options
-  homepage: https://github.com/JohannesKaufmann/html-to-markdown
+  homepage: https://github.com/Goldziher/html-to-markdown
   license: MIT
   license_file: LICENSE
 

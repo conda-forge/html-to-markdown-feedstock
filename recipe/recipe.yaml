@@ -26,18 +26,18 @@ build:
 requirements:
   host:
     - python ${{ python_min }}.*
-    - setuptools >=78.1
+    - maturin >=1.9,<2
+    - tomli >=2
     - pip
   run:
     - python >=${{ python_min }},<4.0
-    - beautifulsoup4 >=4.13.4
-    - nh3 >=0.2.21
 
 tests:
   - python:
       imports:
         - html_to_markdown
       pip_check: true
+      python_version: ${{ python_min }}.*
   - requirements:
       run:
         - pip
@@ -47,10 +47,10 @@ tests:
       - html_to_markdown --help
 
 about:
-  summary: A modern, type-safe Python library for converting HTML to Markdown with comprehensive tag support and customizable options
-  homepage: https://github.com/Goldziher/html-to-markdown
+  summary: High-performance HTML to Markdown converter powered by Rust with a clean Python API
   license: MIT
   license_file: LICENSE
+  homepage: https://github.com/Goldziher/html-to-markdown
 
 extra:
   recipe-maintainers:

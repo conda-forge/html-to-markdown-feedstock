@@ -7,7 +7,7 @@ Home: https://github.com/Goldziher/html-to-markdown
 
 Package license: MIT
 
-Summary: A modern, type-safe Python library for converting HTML to Markdown with comprehensive tag support and customizable options
+Summary: High-performance HTML to Markdown converter powered by Rust with a clean Python API
 
 Current build status
 ====================

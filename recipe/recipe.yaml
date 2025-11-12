@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: html-to-markdown
-  version: "2.6.6"
+  version: "2.7.1"
 
 package:
   name: ${{ name|lower }}
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/html_to_markdown-${{ version }}.tar.gz
-  sha256: 8c59cc227dc6e9e1a8c0a5b38cdd9ff21927da02fae3e0bbcc9c54c73bf9977e
+  sha256: fbc33d85861790d0177f8e1b4d559a888cca6a1c0e501960848d2b840af7c09f
 
 build:
   number: 0

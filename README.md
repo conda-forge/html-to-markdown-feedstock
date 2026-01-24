@@ -3,7 +3,7 @@ About html-to-markdown-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/html-to-markdown-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/Goldziher/html-to-markdown
+Home: https://github.com/kreuzberg-dev/html-to-markdown
 
 Package license: MIT
 

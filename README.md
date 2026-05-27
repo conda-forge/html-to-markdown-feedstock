@@ -3,11 +3,13 @@ About html-to-markdown-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/html-to-markdown-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/kreuzberg-dev/html-to-markdown
+Home: https://pypi.org/project/html-to-markdown/
 
 Package license: MIT
 
 Summary: High-performance HTML to Markdown converter powered by Rust with a clean Python API
+
+Development: https://github.com/kreuzberg-dev/html-to-markdown
 
 Current build status
 ====================

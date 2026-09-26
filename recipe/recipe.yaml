@@ -18,7 +18,7 @@ source:
   sha256: 8eea0527f5902e8936af05d5e2072ed42c2af9fce3673e70f283eddd3978d88a
 
 build:
-  number: 0
+  number: 1
   script:
     env:
       # Per conda-forge.org/docs/maintainer/example_recipes/rust/ — recommended
